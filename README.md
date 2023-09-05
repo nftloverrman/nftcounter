@@ -1,0 +1,2 @@
+# nftcounter
+nftcounter for opensea
