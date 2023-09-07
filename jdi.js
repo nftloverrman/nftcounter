@@ -40,3 +40,4 @@ const nextConfig = {
 
 module.exports = nextConfig
 #dont atack here
+//stertwd from past
