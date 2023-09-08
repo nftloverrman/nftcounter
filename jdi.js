@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  #get nft image pic from opensea
   images: {
     unoptimized: true,
   },
