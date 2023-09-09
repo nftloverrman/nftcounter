@@ -6,6 +6,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+      #continue from it
   async redirects() {
     return [
       {
