@@ -39,6 +39,7 @@ const nextConfig = {
     ]
   },
 }
+// continue from here
 
 module.exports = nextConfig
 #dont atack here
