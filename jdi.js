@@ -6,6 +6,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+      #seepack
       #continue from it
   async redirects() {
     return [
