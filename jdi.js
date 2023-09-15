@@ -46,3 +46,4 @@ module.exports = nextConfig
 #dont atack here
 //stertwd from past
 #continue from 10 sep
+// not worked yet
