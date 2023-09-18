@@ -1,0 +1,73 @@
+name: drupal-boilerplate
+
+recipe: drupal10
+
+config:
+  php: 8.1
+  composer_version: 2.5.1
+  database: mariadb:custom
+  webroot: web
+  build:
+    - composer install --profile
+
+proxy:
+  node:
+    # Change drupal-boilerplate to match "name:" when renaming project.
+    - "node.drupal-boilerplate.lndo.site:3000"
+
+tooling:
+  drush:
+    cmd: /bin/sh -c "drush --root=$LANDO_WEBROOT --uri=https://$LANDO_APP_NAME.lndo.site $@" "$0"
+
+  npm:
+    service: node
+    description: Run NPM commands within the node service.
+
+  theme:
+    service: node
+    description: Run NPM commands for the theme.
+    dir: /app/web/themes/contrib/dvb
+    cmd: npm
+
+services:
+  # Optionally force the app into production mode.
+  # appserver:
+  #   overrides:
+  #     environment:
+  #       ENVIRONMENT_TYPE: production
+
+  database:
+    overrides:
+      image: bitnami/mariadb:10.9-debian-11
+
+  mailhog:
+    type: mailhog
+    app_mount: false
+    portforward: true
+    hogfrom:
+      - appserver
+
+  node:
+    type: node:18
+    ssl: true
+    sslExpose: false
+    port: 3000
+    scanner: false
+
+events:
+  post-start:
+    # Wait for database then install Drupal from config.
+    - appserver: >
+        until drush sql:query ';'>/dev/null 2>&1; do
+          echo "Waiting for database..."; sleep 1;
+        done
+
+        if ! drush status --field=bootstrap | grep -qi "successful"; then
+          drush si --existing-config --account-name=admin -y;
+
+          # Ensure one node exists for the front page.
+          drush pm-enable devel_generate -y;
+          drush genc --bundles=page --skip-fields=field_content 1 0;
+          drush pm-uninstall devel_generate -y;
+        fi
+        //startet
