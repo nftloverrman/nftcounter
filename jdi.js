@@ -1,5 +1,19 @@
 // in 17 sep build temp 1
 /** @type {import('next').NextConfig} */
+// legacy docs
+      {
+        source: '/lexicons/atproto-com',
+        destination: '/lexicons/com-atproto-account',
+        permanent: false,
+      },
+      {
+        source: '/lexicons/bsky-app',
+        destination: '/lexicons/app-bsky-actor',
+        permanent: false,
+      },
+    ]
+  },
+}
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
@@ -47,4 +61,3 @@ module.exports = nextConfig
 #dont atack here
 //stertwd from past
 #continue from 10 sep
-// not worked yet
