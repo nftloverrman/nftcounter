@@ -14,6 +14,7 @@
     ]
   },
 }
+// rent the food to be honest
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
