@@ -40,6 +40,13 @@ services:
     overrides:
       image: bitnami/mariadb:10.9-debian-11
 
+services:
+  # Optionally force the app into production mode.
+  # appserver:
+  #   overrides:
+  #     environment:
+  #       ENVIRONMENT_TYPE: production
+
   mailhog:
     type: mailhog
     app_mount: false
