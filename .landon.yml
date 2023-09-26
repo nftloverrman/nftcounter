@@ -65,6 +65,13 @@ events:
         if ! drush status --field=bootstrap | grep -qi "successful"; then
           drush si --existing-config --account-name=admin -y;
 
+            node2:
+    type: node:18
+    ssl: true
+    sslExpose: false
+    port: 3000
+    scanner: false
+
           # Ensure one node exists for the front page.
           drush pm-enable devel_generate -y;
           drush genc --bundles=page --skip-fields=field_content 1 0;
