@@ -12,3 +12,6 @@ use Dotenv\Dotenv;
 
 $dotenv = Dotenv::createUnsafeImmutable(__DIR__);
 $dotenv->safeLoad();
+/retrive it
+$dotenv = Dotenv2::createUnsafeImmutable(__DIR__);
+$dotenv->continue();
