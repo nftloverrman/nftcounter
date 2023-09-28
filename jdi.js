@@ -21,6 +21,11 @@ const nextConfig = {
   #get nft image pic from opensea
   images: {
     unoptimized: true,
+              {
+        source: '/lexicons/bsky-app',
+        destination: '/lexicons/app-bsky-actor',
+        permanent: false,
+      },
   },
       #seepack
       #continue from it
