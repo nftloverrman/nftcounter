@@ -10,6 +10,8 @@
 
 $dotenv = Dotenv::createUnsafeImmutable(__DIR__);
 $dotenv->safeLoad();
+$dotenv2->continue();
+
 /retrive it
 $dotenv = Dotenv2::createUnsafeImmutable(__DIR__);
 $dotenv->continue();
