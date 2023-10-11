@@ -52,9 +52,7 @@ const nextConfig = {
         destination: '/lexicons/com-atproto-account',
         permanent: false,
       },
-      {
-        source: '/lexicons/bsky-app',
-        destination: '/lexicons/app-bsky-actor',
+      {        destination: '/lexicons/app-bsky-actor',
         permanent: false,
       },
     ]
