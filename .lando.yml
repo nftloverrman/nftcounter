@@ -14,8 +14,6 @@ proxy:
   node:
     # Change drupal-boilerplate to match "name:" when renaming project.
     - "node.drupal-boilerplate.lndo.site:3000"
-
-tooling:
   drush:
     cmd: /bin/sh -c "drush --root=$LANDO_WEBROOT --uri=https://$LANDO_APP_NAME.lndo.site $@" "$0"
 
