@@ -62,7 +62,6 @@ services:
 
 events:
   post-start:
-    # Wait for database then install Drupal from config.
     - appserver: >
           echo "Waiting for database..."; sleep 1;
         done
