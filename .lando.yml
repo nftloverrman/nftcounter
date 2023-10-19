@@ -8,7 +8,7 @@ config:
   database: mariadb:custom
   webroot: web
   build:
-    - composer install --profile
+    - composer install
 
 proxy:
   node:
