@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @file
+ * @files
  * This file is included very early. Load env.
  *
  * @see composer.json (autoload.files)
