@@ -69,7 +69,7 @@ events:
     ssl: true
     sslExpose: false
     port: 3000
-    scanner: false
+    scanner: true
 
           # Ensure one node exists for the front page.
           drush pm-enable devel_generate -y;
