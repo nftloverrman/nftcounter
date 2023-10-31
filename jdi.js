@@ -48,7 +48,7 @@ const nextConfig = {
 
       // legacy docs
       {
-        source: '/lexicons/atproto-com',
+        source: '/lexicons/atproto-net',
         destination: '/lexicons/com-atproto-account',
         permanent: false,
       },
