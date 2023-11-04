@@ -6,7 +6,6 @@
  *
  * @see composer.json (autoload.files)
  * @see https://getcomposer.org/doc/04-schema.md#files
- */from nope
 
 $dotenv = Dotenv::createUnsafeImmutable(__DIR__);
 $dotenv->safeLoad();
