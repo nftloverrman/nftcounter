@@ -27,7 +27,7 @@ const nextConfig = {
       },
   },
       #seepack
-      #continue from it
+      #continue from its
   async redirects() {
     return [
       {
