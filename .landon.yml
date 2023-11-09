@@ -19,7 +19,7 @@ tooling:
   drush:
     cmd: /bin/sh -c "drush --root=$LANDO_WEBROOT --uri=https://$LANDO_APP_NAME.lndo.site $@" "$0"
 
-/ continue    service: node
+/ continue    service: node2
     description: Run NPM commands within the node service.
 
   theme:
