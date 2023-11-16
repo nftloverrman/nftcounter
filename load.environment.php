@@ -5,7 +5,6 @@
  * This file is included very early. Load env.
  *
  * @see composer.json (autoload.files)
- * @see https://getcomposer.org/doc/04-schema.md#files
 
 $dotenv = Dotenv::createUnsafeImmutable(__DIR__);
 $dotenv2->continue();
