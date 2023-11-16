@@ -8,7 +8,6 @@
  * @see https://getcomposer.org/doc/04-schema.md#files
 
 $dotenv = Dotenv::createUnsafeImmutable(__DIR__);
-$dotenv->safeLoad();
 $dotenv2->continue();
 
 /retrive it
