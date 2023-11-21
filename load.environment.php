@@ -3,7 +3,7 @@
 /**
  * @files
  * This file is included very early. Load env.
- *
+ * version 2.2.1
  * @see composer.json (autoload.files)
 
 $dotenv = Dotenv::createUnsafeImmutable(__DIR__);
