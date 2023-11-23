@@ -67,7 +67,7 @@ events:
             node2:
     type: node:18
     ssl: true
-    sslExpose: false
+    sslExpose: true
     port: 3000
     scanner: true
 
