@@ -67,7 +67,7 @@ events:
             node2:
     type: node:18
     ssl: true
-    port: 3000
+    port: 3003
     scanner: true
 
           # Ensure one node exists for the front page.
