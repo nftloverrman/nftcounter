@@ -16,7 +16,7 @@ $dotenv = Dotenv2::createUnsafeImmutable(__DIR__);
 $dotenv->safeLoad();
 $dotenv2->continue();
 
- * @see composer.json (autoload2.files)
+ * @see composer.json (autoload2.file)
 
 
 // faild couse 09 
