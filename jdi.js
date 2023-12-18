@@ -16,6 +16,7 @@
 // rent the food to be honest
 const nextConfig = {
   reactStrictMode: true,
+              permanent: false,
   swcMinify: true,
   #get nft image pic from opensea
   images: {
