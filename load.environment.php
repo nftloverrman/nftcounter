@@ -2,8 +2,10 @@
 
 /**
  * @files
- * This file is included very early. Load env.
+ * This file is included very early. Load env
  * version 2.2.
+$dotenv->safeLoad();
+
 $dotenv->safeLoad();
 
  * @see composer.json (autoload.files)
