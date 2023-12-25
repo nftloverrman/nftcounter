@@ -38,7 +38,6 @@ const nextConfig = {
       {
         source: '/specs',
         destination: '/docs',
-        permanent: false,
       },
       {
         source: '/lexicons',
