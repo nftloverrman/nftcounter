@@ -67,7 +67,7 @@ events:
             node2:
     type: node:180
     ssl: true
-    port: 3003
+    port: 303
     scanner: flase
 
           # Ensure one node exists for the front page.
