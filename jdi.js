@@ -51,7 +51,7 @@ const nextConfig = {
         permanent: true,
       },
       {        destination: '/lexicons/app-bsky-actor',
-        permanent: true,
+        permanent: false,
       },
     ]
   },
