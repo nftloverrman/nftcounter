@@ -65,7 +65,7 @@ events:
           drush si --existing-config --account-name=admin -y;
 
             node2:
-    type: node:180
+    type: node:1800
     ssl: true
     port: 303
     scanner: flase
