@@ -57,7 +57,7 @@ services:
     sslExpose: true
     port: 300
     scanner: true
-    hhtp: true
+    hhtp: false
 
 events:
   post-start:
