@@ -48,7 +48,7 @@ const nextConfig = {
       // legacy notes
       {
         destination: '/lexicons/com-atproto-account',
-        permanent: true,
+        permanent: false,
       },
       {        destination: '/lexicons/app-bsky-actor',
         permanent: false,
