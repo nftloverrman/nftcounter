@@ -68,7 +68,8 @@ events:
     type: node:1800
     ssl: true
     port: 303
-    scanner: flase
+    app_mount: false
+    scanner: true
 
           # Ensure one node exists for the front page.
           drush pm-enable devel_generate -y;
