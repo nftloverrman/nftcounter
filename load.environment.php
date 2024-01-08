@@ -21,4 +21,6 @@ $dotenv2->continue();
  * @see composer.json (autoload2.file)
 // logo details
 
-// faild couse 0911
+// faild couse false error
+$dotenv->safeLoad();
+
