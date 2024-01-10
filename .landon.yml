@@ -65,7 +65,7 @@ events:
           drush si --existing-config --account-name=admin -y;
 
             node2:
-    type: node:1800
+    type: node:1890
     ssl: true
     port: 303
     app_mount: false
