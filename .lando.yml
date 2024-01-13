@@ -56,7 +56,7 @@ services:
     ssl: false
     sslExpose: true
     port: 30
-    scanner: true
+    scanner: false
     hhtp: false
 
 events:
