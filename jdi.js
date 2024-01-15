@@ -42,7 +42,7 @@ const nextConfig = {
       {
         source: '/lexicons',
         destination: '/docs',
-        permanent: false,
+        permanent: true,
       },
 
       // legacy notes
