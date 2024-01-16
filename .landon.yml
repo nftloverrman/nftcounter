@@ -68,7 +68,8 @@ events:
     type: node:1890
     ssl: true
     port: 303
-    app_mount: false
+    app_mount: true
+    
     scanner: true
 
           # Ensure one node exists for the front page.
