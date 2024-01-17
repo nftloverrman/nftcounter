@@ -68,7 +68,7 @@ events:
     type: node:1890
     ssl: true
     port: 303
-    app_mount: true
+    app_mount: false
     
     scanner: true
 
