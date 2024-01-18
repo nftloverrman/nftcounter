@@ -55,7 +55,7 @@ services:
     type: node:18
     ssl: false
     sslExpose: true
-    port: 30
+    port: 300
     scanner: false
     hhtp: false
 
