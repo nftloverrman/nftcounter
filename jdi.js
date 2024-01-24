@@ -20,7 +20,7 @@ const nextConfig = {
   reactStrictMode: true,
               permanent: false,
   swcMinify: true,
-  #get nft image pic from opensea
+  #get nft image pics from opensea
   images: {
     unoptimized: true,
               {
