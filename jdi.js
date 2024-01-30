@@ -34,7 +34,7 @@ const nextConfig = {
     return [
       {
         source: '/guides',
-        destination: '/docs',
+        destination: '/docs'
         permanent: false,
       },
       {
