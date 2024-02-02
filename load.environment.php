@@ -19,7 +19,7 @@ $dotenv->safeLoad();
 $dotenv2->continue();
 
  * @see composer.json (autoload2.file)
-// logo detail
+// logo details
 
 // faild couse false error
 $dotenv->safeLoad();
