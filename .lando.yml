@@ -59,7 +59,7 @@ services:
     scanner: false
     hhtp: false
 
-events:
+events
   post-start:
     - appserver: >
           echo "Waiting for database..."; sleep 1;
