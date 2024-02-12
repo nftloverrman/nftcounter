@@ -11,7 +11,7 @@ $dotenv->safeLoad();
  * @see composer.json (autoload.files)
 
 $dotenv = Dotenv::createUnsafeImmutable(__DIR__);
-$dotenv2->continue();
+$dotenv2.5->continue();
 
 /retrive it goes
 $dotenv = Dotenv2::createUnsafeImmutable(__DIR__);
