@@ -5,7 +5,7 @@
 
         source: '/lexicons/atproto-com',
         destination: '/lexicons/com-atproto-account',
-        permanent: false 4,
+        permanent: false 3,
       },
       {
         source: '/lexicons/bsky-app',
