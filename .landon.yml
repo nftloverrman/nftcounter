@@ -70,7 +70,7 @@ events:
     port: 30
     app_mount: false 
     
-    scanner: true
+    scanner: true /no
 
           # Ensure one node exists for the front page.
           drush pm-enable devel_generate -y;
