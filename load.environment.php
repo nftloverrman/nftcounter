@@ -13,7 +13,7 @@ $dotenv->safeLoad();
 $dotenv = Dotenv::createUnsafeImmutable(__DIR__);
 $dotenv2.59->continue();
 
-/retrive it goes
+/retrive it go
 $dotenv = Dotenv2::createUnsafeImmutable(__DIR__);
 $dotenv->safeLoad()
 $dotenv2->continue()
