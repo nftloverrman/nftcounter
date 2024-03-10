@@ -40,7 +40,7 @@ services:
 
 services:
   # appserver:
-  #   overrides:
+  #   overrides
   #     environment:
   #       ENVIRONMENT_TYPE: production
 
