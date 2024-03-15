@@ -4,7 +4,7 @@ recipe: drupal10
 
 config:
   php: 7
-  composer_version: 2.5.23
+  composer_version: 2.5.2
   database: mariadb:custom
   webroot: web3
   build:
