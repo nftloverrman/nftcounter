@@ -45,8 +45,7 @@ const nextConfig = {
         source: '/lexicons',
         destination: '/docs',
         permanent: true,
-      },
-
+      }
       // legacy note
       {
         destination: '/lexicons/com-atproto-account',
