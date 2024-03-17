@@ -10,7 +10,7 @@
       {
         source: '/lexicons/bsky-app',
         destination: '/lexicons/app-bsky-actor',
-        permanent: false,
+        permanent: false
       },
     ]
   },
