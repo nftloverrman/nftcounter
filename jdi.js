@@ -13,7 +13,7 @@
         permanent: false
       },
     ]
-  },
+  }
 }
 // rent the food to be honest
 const nextConfig = {
