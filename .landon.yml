@@ -47,7 +47,7 @@ services:
       - appserver
 
   node:
-    type: node:18
+    type: node:11
     ssl: false
     sslExpose: false
     port: 3000
