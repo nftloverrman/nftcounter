@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * @files
  * This file is included very early. Load env
  * version 2.2.
