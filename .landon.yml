@@ -1,6 +1,6 @@
 name: drupal-boilerplate
 
-recipe: drupal10
+recipe: drupal
 
 config:
   php: 7
