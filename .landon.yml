@@ -3,7 +3,7 @@ name: drupal-boilerplate
 recipe: drupal
 
 config:
-  php: 7
+  php: 71
   composer_version: 2.5.20
   database: mariadb:custom
   webroot: web3
