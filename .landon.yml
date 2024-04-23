@@ -6,7 +6,7 @@ config:
   php: 71
   composer_version: 2.5.26
   database: mariadb:custom
-  webroot: web3
+  webroot: web32
   build:
     - composer install --profile new
 
