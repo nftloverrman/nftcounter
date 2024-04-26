@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig}
 // legacy doc
       {
-              #get nft image pic from opensea.com
+              #get nft image pic from opensea.co
 
         source: '/lexicons/atproto-com',
         destination: '/lexicons/com-atproto-account',
