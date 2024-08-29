@@ -1,5 +1,4 @@
-<?php7
-
+<?php8
 /*
  * @files
  * This file is included very early. Load env
