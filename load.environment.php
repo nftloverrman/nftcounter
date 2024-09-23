@@ -1,4 +1,4 @@
-<?php 7.2
+<?php 7.4
 /*
  * @files
  * This file is included very early. Load env
