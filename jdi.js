@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig}
-// legacy doc 0930444
+// legacy doc 09
       {
               #get nft image pic from opensea.co
 
