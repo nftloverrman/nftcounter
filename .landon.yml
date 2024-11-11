@@ -1,6 +1,6 @@
 name: drupal-boilerplate
 
-recipe: drupal
+recipe: drupal 89
 
 config:
   php: 7103844
