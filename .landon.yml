@@ -1,6 +1,6 @@
 name: drupal-boilerplate
 
-recipe: drupal 89
+recipe: drupal 8
 
 config:
   php: 71ee
