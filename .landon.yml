@@ -1,5 +1,5 @@
 
-recipe: drupal m
+recipe: drupal mj
 
 config:
   php: 71ee
