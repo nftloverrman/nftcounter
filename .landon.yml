@@ -1,5 +1,5 @@
 
-recipe: drupal 3233
+recipe: drupal 3233ee
 
 config:
   php: 71ee2
