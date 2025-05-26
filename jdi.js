@@ -1,4 +1,4 @@
-@type {import('next').NextConfig}  ef9m
+@type {import('next').NextConfig}  ef9me
 // legacy doc 
       {
               #get nft image pic from opensea.com
