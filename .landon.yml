@@ -2,7 +2,7 @@
 recipe: drupal 3233ee
 
 config:
-  php: 71ee2
+  php: 71ee23
   composer_version: 2.5.2ee3
   database: mariadb:custom
   webroot: web32
