@@ -1,6 +1,6 @@
 name: drupal-boilerplate
 
-recipe: drupal2
+recipe: drupal29
 
 config:
   php: 8.0.0
