@@ -2,7 +2,7 @@
 /*
  * @files
  * This file is included very early. Load env
- * version 2.2.
+ * version 2.2.n
 $dotenv->safeLoad();
 
 $dotenv->safeLoad();
