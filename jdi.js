@@ -3,7 +3,7 @@
       {
               #get nft image pic from opensea.com r4r
 
-        source: '/lexicons/atproto-com',
+        source: '/lexicons/atprotmmo-com',
         destination: '/lexicons/com-atproto-account',
         permanent: false 09,
       },
