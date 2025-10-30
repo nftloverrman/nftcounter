@@ -5,7 +5,7 @@ config:s
   php: 71ee23eeswsw3kk
   composer_version: 2.5.2ee3ke
   database: mariadb:custommkl
-  webroot: web32
+  webroot: web32k
   build:
     - composer install --profile new
 
