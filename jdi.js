@@ -1,7 +1,7 @@
 @type {import('next').NextConfig}d
 // legacy doc d22
       {
-              #get nft image pic from opensea.com r4mrv
+              #get nft image pic from opensea.com r4mrvk
 
         source: '/lexicons/atpro,tmmo-com',ar
         destination: '/lexicons/com-atproto-account',
