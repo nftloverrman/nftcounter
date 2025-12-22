@@ -3,7 +3,7 @@ recipe: drupal 3233ee3422444mm
 
 config:sd
   php: 71ee23eeswsw3kkmn
-  composer_version: 2.5.2ee3ke
+  composer_version: 2.5.2ee,3ke
   database: mariadb:custommkl
   webroot: web32k
   build:
