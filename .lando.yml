@@ -1,6 +1,6 @@
 name: drupal-boilerplate4
 rr
-recipe: drupal294k
+recipe: drupal294kx
 
 config:
   php: 8.0.0
